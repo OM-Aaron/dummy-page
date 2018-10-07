@@ -1,0 +1,20 @@
+.my-container {
+    display: flex;
+    align-items: stretch;/* You want to shrink an element when the elements are occupying the same space hence we cannot use wrap as it will just automatically wrap the elements.align-items: stretch means to put all the items in a particular row do whatever you want eg change their dimensions but keep them in the same row*/
+    width: 100%;
+
+}
+
+.my-font {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.container-item {
+    margin: 1%;
+    background-color: blue;
+    width: 20%;
+    height: 100px;
+}
